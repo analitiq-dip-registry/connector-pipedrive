@@ -44,7 +44,7 @@ After OAuth2 authentication, the connector calls `GET /v1/users/me` to retrieve 
 ## Caveats
 
 - The base URL is company-specific, resolved via `GET /v1/users/me` after OAuth. It follows the pattern `https://${api_domain}.pipedrive.com/api/v1/`.
-- Pipedrive uses a token-based rate limiting system where different endpoints consume different numbers of tokens. The burst limit is approximately 80 requests per 2-second window, but complex endpoints cost more tokens.
+- Pipedrive uses a token-based rate limiting system where different endpoints consume different numbers of tokens. The connector is configured for 80 requests per 2-second window, but actual limits may vary by endpoint cost.
 - Refresh tokens expire after 60 days of non-use. Long-idle connections will need to re-authenticate.
 - The `/deals`, `/persons`, and `/organizations` endpoints use offset-based pagination with `start` and `limit` query parameters (max 500 per request). The `additional_data.pagination` response object indicates whether more items are available.
 - The `/users`, `/pipelines`, and `/stages` endpoints return all records in a single response and do not support pagination.

@@ -10,7 +10,7 @@
   "auth": {
     "type": "oauth2_authorization_code",
     "authorize": {
-      "url": "https://oauth.pipedrive.com/oauth/authorize?client_id=${client_id}&redirect_uri=${redirect_uri}&state=${state}"
+      "url": "https://oauth.pipedrive.com/oauth/authorize?client_id=${client_id}&redirect_uri=${redirect_uri}&state=${state}&response_type=code"
     },
     "token_exchange": {
       "url": "https://oauth.pipedrive.com/oauth/token",

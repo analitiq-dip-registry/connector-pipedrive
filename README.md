@@ -68,7 +68,7 @@ The table below lists all data endpoints defined by this connector. Each endpoin
 - **Rate limits** -- Pipedrive uses a token-based rate limiting system with a burst limit of approximately 80 requests per 2-second window. Daily budgets vary by subscription plan and seat count.
 - **Token expiry** -- OAuth2 access tokens expire after 1 hour. Refresh tokens expire after 60 days of non-use, requiring re-authentication for idle connections.
 - **Company-specific URLs** -- Each Pipedrive account has a unique API domain (e.g., `yourcompany.pipedrive.com`). The connector resolves this automatically after authentication via a call to `/v1/users/me`.
-- **Pagination** -- The API returns a maximum of 500 items per request. Large datasets require multiple paginated requests.
+- **Pagination** -- The `/deals`, `/persons`, and `/organizations` endpoints return a maximum of 500 items per request. The `/users`, `/pipelines`, and `/stages` endpoints return all records in a single response.
 
 ## For AI agents
 

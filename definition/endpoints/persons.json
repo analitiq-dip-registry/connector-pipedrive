@@ -326,7 +326,7 @@
         "cc_email": {
           "type": "string",
           "format": "email",
-          "description": "BCC email address for the person"
+          "description": "The CC email address assigned by Pipedrive for linking email conversations to this person"
         },
         "org_name": {
           "type": "string",

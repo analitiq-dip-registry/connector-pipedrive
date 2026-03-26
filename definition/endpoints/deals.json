@@ -304,7 +304,7 @@
         },
         "cc_email": {
           "type": "string",
-          "description": "The BCC email associated with the deal for email tracking"
+          "description": "The CC email address assigned by Pipedrive for linking email conversations to this deal"
         },
         "org_hidden": {
           "type": "boolean",

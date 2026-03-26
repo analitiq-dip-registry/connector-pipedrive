@@ -30,7 +30,7 @@
         },
         "deal_probability": {
           "type": "integer",
-          "description": "The success probability percentage of the deal. Used/shown when the deal weighted values are used."
+          "description": "The default success probability percentage assigned to deals in this stage. Used when weighted deal values are enabled on the pipeline."
         },
         "pipeline_id": {
           "type": "integer",

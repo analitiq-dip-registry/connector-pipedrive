@@ -1,3 +1,5 @@
+![Status: Unverified](https://img.shields.io/badge/status-unverified-yellow)
+
 # Pipedrive
 
 Connector for the Pipedrive CRM API. Enables reading deals, contacts, organizations, users, pipelines, and stages from your Pipedrive sales account.

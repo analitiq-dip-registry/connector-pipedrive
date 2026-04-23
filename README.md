@@ -2,7 +2,7 @@
 
 # Pipedrive
 
-Connector for the Pipedrive CRM API. Enables reading deals, contacts, organizations, users, pipelines, and stages from your Pipedrive sales account.
+Connector for the [Pipedrive](https://www.pipedrive.com/) CRM API. Enables reading deals, contacts, organizations, users, pipelines, and stages from your Pipedrive sales account.
 
 ## What is this?
 

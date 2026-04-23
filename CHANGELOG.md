@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.1.0] - 2026-04-23
+
+### Added
+- docs: link Pipedrive homepage in README intro (#5)
+
 ## [1.0.0] - 2026-03-26
 
 ### Added
